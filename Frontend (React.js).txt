@@ -1,0 +1,51 @@
+﻿Assignment
+Instructions
+Our philosophy
+Next steps
+
+
+Assignment
+Build a react web app to search hacker news.
+You will be building a web app using the HN Search API that lets users search for hacker news posts and view details of each post.
+* Home screen
+   * Search field on the top
+   * A list of search results below the search field
+   * Entering a query in the search field triggers the search results API: 
+      * E.g. GET http://hn.algolia.com/api/v1/search?query=test
+   * Upon receiving results, populate a list of search results below
+* Post detail screen
+   * Upon clicking a search result, take the user to the post detail screen
+   * Using objectID obtained from search results, call the Get item API to retrieve post details
+      * E.g. GET http://hn.algolia.com/api/v1/items/12701272
+   * On the detail screen, the following should be displayed
+      * Title
+      * Points
+      * List of all comments (“children” field) 
+Note: The API is public and does not need any API keys. Documentation is available at https://hn.algolia.com/api
+Instructions
+* Use React.js or Next.js along with any libraries you think are appropriate to complete the assignment.
+* Use your best design judgement to create a good user experience. Handle empty states, loading states and errors gracefully.
+* Follow whatever architecture you think is best for managing state, navigation and networking.
+* Bonus points: Feel free to show off your skills - implement advanced architecture patterns, libraries, best practices, tests, beautiful UI/UX etc.
+* Create a public git repository (e.g. on GitHub) and try to make frequent small commits as you work through the problem.
+* Take as much or as little time as you need. There is no deadline, however most candidates respond within 2-3 days.
+* Depending on your speed and availability, the assignment should ideally take no more than a few hours from start to finish. 
+* Once you are done, share the link to the git repository. Ensure that you’ve also added any instructions needed for building and running the project.
+* If you find any instructions missing, feel free to use your best judgement and fill in the blanks yourself as to what the functionality of the app should be like.
+* If there’s anything you’d like to clarify, you can reply to the email directly
+
+
+Our philosophy
+* This assignment is designed to not only test your skills, but also to give you a taste of what working at Hybr1d is like
+* We do not believe in testing candidates for arbitrary or trivial data structure/algorithm questions, but only for real world applications
+
+
+Next steps
+1. Once you’ve completed the assignment, reply to the email with a link to the github project along with screenshots and/or deployed link to view the project.
+2. After that, we will review the assignment within 72 hours and schedule a video call/screen share with you to have a technical discussion around the project
+3. This is the final round. Upon successfully completing the above, if selected you will receive an offer from Hybr1d within 24 hours
+
+
+
+
+Happy coding!
