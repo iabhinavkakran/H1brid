@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 // Routes
-
 // Part 1 - Auth APIs
 app.use('/api/auth/register',require('./routes/register'));
 app.use('/api/auth/login',require('./routes/login'));

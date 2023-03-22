@@ -11,6 +11,7 @@ const getListOfSellers = async (req, res) =>{
     }
 }
 
+
 const getSellerById = async (req, res) =>{
     try {
         const seller_id = req.params.seller_id;

@@ -5,7 +5,6 @@ const registerUser = async (req, res) =>{
         const username = req.body.username;
         const password = req.body.password;
         const role = req.body.role;
-
         User.findOne({username: username}, function(err, foundOne){
             if(err){
                 console.log(err);
